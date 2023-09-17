@@ -1,0 +1,28 @@
+{
+  "name": "unraid-json-api-external",
+  "version": "1.0.0",
+  "description": "Simple Express service for exposing your Unraid JSON API (by CyanLabs) without needing auth.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pugson/unraid-json-api-external.git"
+  },
+  "keywords": [
+    "unraid",
+    "api",
+    "json"
+  ],
+  "author": "pugson <hi@wojtek.im>",
+  "license": "The Unlicense",
+  "bugs": {
+    "url": "https://github.com/pugson/unraid-json-api-external/issues"
+  },
+  "homepage": "https://github.com/pugson/unraid-json-api-external#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  }
+}
